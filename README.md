@@ -1,6 +1,6 @@
 # Preventive-Healthcare-Data-Analysis-using-MySQL
 ## A) Projet Overview
-Project Title: Preventive-Healthcare-Data-Analysis-using-MySQL
+<br>Project Title: Preventive-Healthcare-Data-Analysis-using-MySQL
 <br>Database: pre_care_db
         <br>This project focuses on analyzing preventive healthcare data using MySQL. It simulates a real-world database system that stores patient information, lifestyle patterns, family medical history, preventive checkups, and risk levels. The goal is to extract insights that can help predict and prevent health risks early through data analysis.
 
@@ -29,24 +29,27 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
          <br>ADDRESS – Full address
 
 3. 🍎 LIFESTYLE
-Contains details about each patient’s daily lifestyle habits.
-Columns: LIFESTYLE_ID – Primary Key
-         PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
-         DIET_QUALITY – Poor / Average / Good.
-         EXERCISE_HOURS_PER_WEEK – Total weekly exercise hours
-         SLEEP_HOURS_PER_DAY – Average daily sleep duration
-         SMOKING – Yes / No
-         ALCOHOL – Yes / No
+<br>Contains details about each patient’s daily lifestyle habits.
+<br>Columns:
+         <br>LIFESTYLE_ID – Primary Key
+         <br>PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
+         <br>DIET_QUALITY – Poor / Average / Good.
+         <br>EXERCISE_HOURS_PER_WEEK – Total weekly exercise hours
+         <br>SLEEP_HOURS_PER_DAY – Average daily sleep duration
+         <br>SMOKING – Yes / No
+         <br>ALCOHOL – Yes / No
 
-4. 👨‍👩‍👧‍👦 FAMILY_HISTORY
-Represents family medical history and hereditary risk factors.
-Columns: FAMILY_ID – Primary Key
-         PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
-         DIABETES, HEART_DISEASE, CANCER, ASTHMA – Yes / No indicators
+5. 👨‍👩‍👧‍👦 FAMILY_HISTORY
+<br>Represents family medical history and hereditary risk factors.
+<br>Columns:
+         <br>FAMILY_ID – Primary Key
+         <br>PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
+         <br>DIABETES, HEART_DISEASE, CANCER, ASTHMA – Yes / No indicators
 
-5. 🧾 CHECKUPS
-Records preventive health checkups conducted for each patient.
-Columns: CHECKUP_ID – Primary Key
+7. 🧾 CHECKUPS
+<br>Records preventive health checkups conducted for each patient.
+<br>Columns:
+<br>     CHECKUP_ID – Primary Key
          PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
          CHECKUP_TYPE – Type of medical checkup (e.g., Blood Test, ECG, Vision Test)
          CHECKUP_DATE – Date of checkup
