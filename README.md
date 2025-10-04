@@ -28,7 +28,7 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
          <br>f] PHONE – Unique contact number
          <br>g] ADDRESS – Full address
 
-3. 🍎 LIFESTYLE
+2. 🍎 LIFESTYLE
 <br>Contains details about each patient’s daily lifestyle habits.
 <br>Columns:
          <br>a] LIFESTYLE_ID – Primary Key
@@ -39,14 +39,14 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
          <br>f] SMOKING – Yes / No
          <br>g] ALCOHOL – Yes / No
 
-5. 👨‍👩‍👧‍👦 FAMILY_HISTORY
+3. 👨‍👩‍👧‍👦 FAMILY_HISTORY
 <br>Represents family medical history and hereditary risk factors.
 <br>Columns:
          <br>a] FAMILY_ID – Primary Key
          <br>b] PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
          <br>c] DIABETES, HEART_DISEASE, CANCER, ASTHMA – Yes / No indicators
 
-7. 🧾 CHECKUPS
+4. 🧾 CHECKUPS
 <br>Records preventive health checkups conducted for each patient.
 <br>Columns:
 <br>     a] CHECKUP_ID – Primary Key
@@ -55,6 +55,14 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
          <br>d] CHECKUP_DATE – Date of checkup
          <br>e] RESULT_SUMMARY – Key result or doctor’s remark
          <br>f] NEXT_DUE_DATE – Recommended next checkup date
+ 5.⚠️ RISK_SCORES
+<br>Stores health risk assessments calculated for each patient.
+<br>Columns:
+<br>a] RISK_ID – Primary Key
+<br>b] PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
+<br>c] CALCULATED_DATE – Date when risk was assessed
+<br>d] RISK_LEVEL – Low / Medium / High
+<br>e] REMARKS – Additional comments or recommendations  
 
 ### D) Database Schema
 ```
