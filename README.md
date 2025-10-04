@@ -19,7 +19,8 @@ The objective of this project is to design and analyze a Preventive Healthcare D
 The database pre_care_db is designed to store and analyze preventive healthcare information. It contains five main tables, each connected through the PATIENT_ID foreign key, ensuring referential integrity and enabling relational analysis.
 1. 🩺 PATIENTS
 <br>Stores basic patient demographic information.
-<br>Columns: PATIENT_ID – Primary Key (Unique ID for each patient)
+<br>Columns:
+         <br>PATIENT_ID – Primary Key (Unique ID for each patient)
          <br>FIRST_NAME, LAST_NAME – Patient’s name details
          <br>GENDER – Male, Female, or Other
          <br>BIRTH_DATE – Date of birth
@@ -27,7 +28,7 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
          <br>PHONE – Unique contact number
          <br>ADDRESS – Full address
 
-2. 🍎 LIFESTYLE
+3. 🍎 LIFESTYLE
 Contains details about each patient’s daily lifestyle habits.
 Columns: LIFESTYLE_ID – Primary Key
          PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
@@ -37,13 +38,13 @@ Columns: LIFESTYLE_ID – Primary Key
          SMOKING – Yes / No
          ALCOHOL – Yes / No
 
-3. 👨‍👩‍👧‍👦 FAMILY_HISTORY
+4. 👨‍👩‍👧‍👦 FAMILY_HISTORY
 Represents family medical history and hereditary risk factors.
 Columns: FAMILY_ID – Primary Key
          PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
          DIABETES, HEART_DISEASE, CANCER, ASTHMA – Yes / No indicators
 
-4. 🧾 CHECKUPS
+5. 🧾 CHECKUPS
 Records preventive health checkups conducted for each patient.
 Columns: CHECKUP_ID – Primary Key
          PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
