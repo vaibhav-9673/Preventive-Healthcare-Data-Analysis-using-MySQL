@@ -55,6 +55,7 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
          <br>d] CHECKUP_DATE – Date of checkup
          <br>e] RESULT_SUMMARY – Key result or doctor’s remark
          <br>f] NEXT_DUE_DATE – Recommended next checkup date
+   
  5.⚠️ RISK_SCORES
 <br>Stores health risk assessments calculated for each patient.
 <br>Columns:
