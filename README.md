@@ -2,7 +2,7 @@
 ## A) Projet Overview
 Project Title: Preventive-Healthcare-Data-Analysis-using-MySQL
 <br>Database: pre_care_db
-        This project focuses on analyzing preventive healthcare data using MySQL. It simulates a real-world database system that stores patient information, lifestyle patterns, family medical history, preventive checkups, and risk levels. The goal is to extract insights that can help predict and prevent health risks early through data analysis.
+        <br>This project focuses on analyzing preventive healthcare data using MySQL. It simulates a real-world database system that stores patient information, lifestyle patterns, family medical history, preventive checkups, and risk levels. The goal is to extract insights that can help predict and prevent health risks early through data analysis.
 
 <img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/509c908f-c4a4-4a7b-b081-942267efb410" />
 
@@ -18,14 +18,14 @@ The objective of this project is to design and analyze a Preventive Healthcare D
 ## C) 🧱 Database Structure
 The database pre_care_db is designed to store and analyze preventive healthcare information. It contains five main tables, each connected through the PATIENT_ID foreign key, ensuring referential integrity and enabling relational analysis.
 1. 🩺 PATIENTS
-Stores basic patient demographic information.
-Columns: PATIENT_ID – Primary Key (Unique ID for each patient)
+<br>Stores basic patient demographic information.
+<br>Columns: PATIENT_ID – Primary Key (Unique ID for each patient)
          <br>FIRST_NAME, LAST_NAME – Patient’s name details
          <br>GENDER – Male, Female, or Other
-         BIRTH_DATE – Date of birth
-         CITY – City of residence
-         PHONE – Unique contact number
-         ADDRESS – Full address
+         <br>BIRTH_DATE – Date of birth
+         <br>CITY – City of residence
+         <br>PHONE – Unique contact number
+         <br>ADDRESS – Full address
 
 2. 🍎 LIFESTYLE
 Contains details about each patient’s daily lifestyle habits.
