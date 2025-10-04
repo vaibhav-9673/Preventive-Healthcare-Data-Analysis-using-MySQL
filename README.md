@@ -1,7 +1,7 @@
 # Preventive-Healthcare-Data-Analysis-using-MySQL
 ## A) Projet Overview
 Project Title: Preventive-Healthcare-Data-Analysis-using-MySQL
-Database: pre_care_db
+<br>Database: pre_care_db
         This project focuses on analyzing preventive healthcare data using MySQL. It simulates a real-world database system that stores patient information, lifestyle patterns, family medical history, preventive checkups, and risk levels. The goal is to extract insights that can help predict and prevent health risks early through data analysis.
 
 <img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/509c908f-c4a4-4a7b-b081-942267efb410" />
@@ -20,8 +20,8 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
 1. 🩺 PATIENTS
 Stores basic patient demographic information.
 Columns: PATIENT_ID – Primary Key (Unique ID for each patient)
-         FIRST_NAME, LAST_NAME – Patient’s name details
-         GENDER – Male, Female, or Other
+         <br>FIRST_NAME, LAST_NAME – Patient’s name details
+         <br>GENDER – Male, Female, or Other
          BIRTH_DATE – Date of birth
          CITY – City of residence
          PHONE – Unique contact number
