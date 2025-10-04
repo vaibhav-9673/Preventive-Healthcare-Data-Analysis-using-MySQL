@@ -20,41 +20,41 @@ The database pre_care_db is designed to store and analyze preventive healthcare 
 1. 🩺 PATIENTS
 <br>Stores basic patient demographic information.
 <br>Columns:
-         <br>PATIENT_ID – Primary Key (Unique ID for each patient)
-         <br>FIRST_NAME, LAST_NAME – Patient’s name details
-         <br>GENDER – Male, Female, or Other
-         <br>BIRTH_DATE – Date of birth
-         <br>CITY – City of residence
-         <br>PHONE – Unique contact number
-         <br>ADDRESS – Full address
+         <br>a] PATIENT_ID – Primary Key (Unique ID for each patient)
+         <br>b] FIRST_NAME, LAST_NAME – Patient’s name details
+         <br>c] GENDER – Male, Female, or Other
+         <br>d] BIRTH_DATE – Date of birth
+         <br>e] CITY – City of residence
+         <br>f] PHONE – Unique contact number
+         <br>g] ADDRESS – Full address
 
 3. 🍎 LIFESTYLE
 <br>Contains details about each patient’s daily lifestyle habits.
 <br>Columns:
-         <br>LIFESTYLE_ID – Primary Key
-         <br>PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
-         <br>DIET_QUALITY – Poor / Average / Good.
-         <br>EXERCISE_HOURS_PER_WEEK – Total weekly exercise hours
-         <br>SLEEP_HOURS_PER_DAY – Average daily sleep duration
-         <br>SMOKING – Yes / No
-         <br>ALCOHOL – Yes / No
+         <br>a] LIFESTYLE_ID – Primary Key
+         <br>b] PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
+         <br>c] DIET_QUALITY – Poor / Average / Good.
+         <br>d] EXERCISE_HOURS_PER_WEEK – Total weekly exercise hours
+         <br>e] SLEEP_HOURS_PER_DAY – Average daily sleep duration
+         <br>f] SMOKING – Yes / No
+         <br>g] ALCOHOL – Yes / No
 
 5. 👨‍👩‍👧‍👦 FAMILY_HISTORY
 <br>Represents family medical history and hereditary risk factors.
 <br>Columns:
-         <br>FAMILY_ID – Primary Key
-         <br>PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
-         <br>DIABETES, HEART_DISEASE, CANCER, ASTHMA – Yes / No indicators
+         <br>a] FAMILY_ID – Primary Key
+         <br>b] PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
+         <br>c] DIABETES, HEART_DISEASE, CANCER, ASTHMA – Yes / No indicators
 
 7. 🧾 CHECKUPS
 <br>Records preventive health checkups conducted for each patient.
 <br>Columns:
-<br>     CHECKUP_ID – Primary Key
-         PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
-         CHECKUP_TYPE – Type of medical checkup (e.g., Blood Test, ECG, Vision Test)
-         CHECKUP_DATE – Date of checkup
-         RESULT_SUMMARY – Key result or doctor’s remark
-         NEXT_DUE_DATE – Recommended next checkup date
+<br>     a] CHECKUP_ID – Primary Key
+         <br>b] PATIENT_ID – Foreign Key referencing PATIENTS(PATIENT_ID)
+         <br>c] CHECKUP_TYPE – Type of medical checkup (e.g., Blood Test, ECG, Vision Test)
+         <br>d] CHECKUP_DATE – Date of checkup
+         <br>e] RESULT_SUMMARY – Key result or doctor’s remark
+         <br>f] NEXT_DUE_DATE – Recommended next checkup date
 
 ### D) Database Schema
 ```
