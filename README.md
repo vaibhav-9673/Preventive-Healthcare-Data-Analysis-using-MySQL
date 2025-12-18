@@ -9,11 +9,11 @@
 
 ## 🎯 B) Objective
 The objective of this project is to design and analyze a Preventive Healthcare Database System using MySQL to identify health risk patterns through patient, lifestyle, and medical data. The project aims to simulate real-world healthcare scenarios where data-driven insights can help in early disease prediction, risk assessment, and preventive decision-making.
-1.Through this project, the goal is to:
-2.Organize healthcare data in a structured relational database.
-3.Perform SQL-based data analysis to extract meaningful insights.
-4.Understand the relationship between lifestyle factors and health risks.
-5.Support data-driven preventive healthcare strategies using analytics.
+<br>1.Through this project, the goal is to:
+<br>2.Organize healthcare data in a structured relational database.
+<br>3.Perform SQL-based data analysis to extract meaningful insights.
+<br>4.Understand the relationship between lifestyle factors and health risks.
+<br>5.Support data-driven preventive healthcare strategies using analytics.
 
 ## C) 🧱 Database Structure
 The database pre_care_db is designed to store and analyze preventive healthcare information. It contains five main tables, each connected through the PATIENT_ID foreign key, ensuring referential integrity and enabling relational analysis.
